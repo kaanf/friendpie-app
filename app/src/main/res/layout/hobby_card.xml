@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <CheckBox
+        android:id="@+id/hobby_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/hobby_background_selector_3"
+        android:button="@color/transparentColor"
+        android:drawableStart="@drawable/ic_alisveris"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/inter_medium"
+        android:gravity="start|center_vertical"
+        android:letterSpacing="-0.03"
+        android:paddingStart="40dp"
+        android:text="Kahve İçmek"
+        android:textColor="@color/titleColorGrey" />
+
+</LinearLayout>

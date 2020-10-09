@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingTop="10dp"
+    android:paddingRight="30dp"
+    tools:context=".SignUp.A_SignUpActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/back_arrow"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_centerVertical="true"
+            android:padding="12dp"
+            android:src="@drawable/ic_baseline_chevron_left_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/inter_bold"
+            android:gravity="center"
+            android:letterSpacing="-0.03"
+            android:text="@string/signup_button"
+            android:textColor="@color/titleColorGrey"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/email_signup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:background="@drawable/input_field_background"
+        android:fontFamily="@font/inter_regular"
+        android:hint="@string/email_text"
+        android:inputType="textEmailAddress"
+        android:letterSpacing="-0.03"
+        android:paddingStart="30dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/input_field_text_color"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/password_signup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_field_background"
+        android:fontFamily="@font/inter_regular"
+        android:hint="@string/password_text_hane"
+        android:inputType="numberPassword"
+        android:letterSpacing="-0.03"
+        android:maxLength="6"
+        android:paddingStart="30dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/input_field_text_color"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/password_dogrula_signup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:paddingEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_field_background"
+        android:fontFamily="@font/inter_regular"
+        android:hint="@string/password_dogrula_text"
+        android:inputType="numberPassword"
+        android:letterSpacing="-0.03"
+        android:maxLength="6"
+        android:paddingStart="30dp"
+        android:textColor="@color/input_field_text_color"
+        android:textSize="13sp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/signup_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:background="@drawable/filled_button_background"
+            android:elevation="0dp"
+            android:fontFamily="@font/inter_bold"
+            android:letterSpacing="-0.03"
+            android:text="@string/signup_button"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:indeterminateDrawable="@drawable/progress_bar_background"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_regular"
+            android:letterSpacing="-0.03"
+            android:text="@string/zaten_uye_misin"
+            android:textColor="@color/grey2"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/signup_girisyap_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/inter_semibold"
+            android:letterSpacing="-0.02"
+            android:text="@string/giris_yap_text"
+            android:textColor="@color/mainButtonColor"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

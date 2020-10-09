@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="transparentColor">#FF000000</color>
+
+    <color name="white">#fff</color>
+    <color name="mainLogoColor1">#32CCD7</color>
+    <color name="mainLogoColor2">#A85EE1</color>
+    <color name="inputFieldBackground">#F7F7F8</color>
+    <color name="titleColorGrey">#3d3d3d</color>
+    <color name="mainButtonColor">#465dfd</color>
+    <color name="grey2">#AEAFBA</color>
+    <color name="boldGrey">#878789</color>
+
+
+    <color name="music_Genre_background_purple">#546CF2</color>
+    <color name="music_Genre_background_orange">#F27754</color>
+    <color name="music_Genre_background_blue">#238A8A</color>
+    <color name="music_Genre_background_red">#FF6161</color>
+    <color name="music_Genre_background_yellow">#73DD73</color>
+    <color name="input_field_text_color">#878789</color>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingTop="10dp"
+    android:paddingRight="30dp"
+    tools:context=".SignUp.B_PhoneActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/back_arrow_2"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_centerVertical="true"
+            android:padding="12dp"
+            android:src="@drawable/ic_baseline_chevron_left_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/inter_bold"
+            android:gravity="center"
+            android:letterSpacing="-0.03"
+            android:text="@string/telefon_text"
+            android:textColor="@color/titleColorGrey"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/inter_regular"
+        android:gravity="center"
+        android:letterSpacing="-0.03"
+        android:lineHeight="20dp"
+        android:text="@string/telefon_aciklama"
+        android:textColor="@color/grey2"
+        android:textSize="13sp" />
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/country_code"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/input_field_background"
+        android:gravity="center"
+        android:paddingStart="24dp"
+        android:paddingEnd="15dp"
+        app:ccpDialog_allowSearch="false"
+        app:ccpDialog_showCloseIcon="false"
+        app:ccpDialog_showFastScroller="false"
+        app:ccpDialog_showFlag="true"
+        app:ccpDialog_showNameCode="false"
+        app:ccpDialog_showPhoneCode="false"
+        app:ccpDialog_showTitle="false"
+        app:ccpDialog_textColor="#484451"
+        app:ccp_arrowColor="#C1C0C8"
+        app:ccp_arrowSize="20dp"
+        app:ccp_autoDetectCountry="true"
+        app:ccp_contentColor="@color/input_field_text_color"
+        app:ccp_showFlag="true"
+        app:ccp_showFullName="true"
+        app:ccp_showNameCode="false"
+        app:ccp_showPhoneCode="false"
+        app:ccp_textGravity="LEFT"
+        app:ccp_textSize="14sp"
+        app:ccp_useFlagEmoji="true" />
+
+    <EditText
+        android:id="@+id/phone_signup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_field_background"
+        android:fontFamily="@font/inter_regular"
+        android:hint="@string/telefon_text"
+        android:maxLength="10"
+        android:inputType="phone"
+        android:letterSpacing="-0.02"
+        android:paddingStart="30dp"
+        android:textColor="@color/input_field_text_color"
+        android:textSize="13sp" />
+
+
+    <Button
+        android:id="@+id/onay_kodu_gonder"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/filled_button_background"
+        android:fontFamily="@font/inter_bold"
+        android:letterSpacing="-0.03"
+        android:text="@string/onay_kodu_gonder"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+
+</LinearLayout>

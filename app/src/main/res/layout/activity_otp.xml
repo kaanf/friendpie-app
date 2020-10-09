@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingTop="10dp"
+    android:paddingRight="30dp"
+    tools:context=".SignUp.C_OTPActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/back_arrow_3"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_centerVertical="true"
+            android:padding="12dp"
+            android:src="@drawable/ic_baseline_chevron_left_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/inter_bold"
+            android:gravity="center"
+            android:letterSpacing="-0.03"
+            android:text="@string/onay_kodu"
+            android:textColor="@color/titleColorGrey"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/inter_regular"
+        android:gravity="center"
+        android:letterSpacing="-0.03"
+        android:lineHeight="20dp"
+        android:text="@string/onay_kodu_aciklama"
+        android:textColor="@color/grey2"
+        android:textSize="13sp" />
+
+    <com.chaos.view.PinView
+        android:id="@+id/register_otpCode"
+        style="@style/PinWidget.PinView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:cursorVisible="true"
+        android:elevation="1dp"
+        android:gravity="center"
+        android:inputType="number"
+        android:itemBackground="@drawable/input_field_background"
+        app:hideLineWhenFilled="true"
+        app:itemCount="6"
+        app:itemHeight="40dp"
+        app:itemRadius="9dp"
+        app:itemSpacing="10dp"
+        app:itemWidth="40dp"
+        app:lineColor="#EEEEEE"
+        app:lineWidth="1dp" />
+
+
+    <Button
+        android:id="@+id/otp_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/filled_button_background"
+        android:elevation="0dp"
+        android:fontFamily="@font/inter_bold"
+        android:letterSpacing="-0.03"
+        android:text="@string/onayla"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_regular"
+            android:letterSpacing="-0.03"
+            android:text="@string/onay_kodu_almadin_mi"
+            android:textColor="@color/grey2"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tekrar_gonder_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/inter_semibold"
+            android:letterSpacing="-0.02"
+            android:text="@string/tekrar_gonder"
+            android:textColor="@color/mainButtonColor"
+            android:textSize="13sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

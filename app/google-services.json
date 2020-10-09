@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "312661111625",
+    "firebase_url": "https://friendpie-127cc.firebaseio.com",
+    "project_id": "friendpie-127cc",
+    "storage_bucket": "friendpie-127cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312661111625:android:b7cd4abd6ba122a90ca098",
+        "android_client_info": {
+          "package_name": "com.example.friendpie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312661111625-4bqb026d2dutve30pd2nmpk0am3fnl9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqHOKxPVxgLSzek0xe4-zk9zFwj2LTCzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312661111625-4bqb026d2dutve30pd2nmpk0am3fnl9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

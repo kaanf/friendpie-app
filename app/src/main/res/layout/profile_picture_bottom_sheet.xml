@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/bottom_sheet_pp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+    android:background="@drawable/dialog_tablayout"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Profil Fotoğrafı"
+        android:textColor="@color/mainButtonColor"
+        android:letterSpacing="-0.03"
+        android:gravity="center"
+        android:padding="13dp"
+        android:textSize="13sp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E7E7E7"/>
+
+    <TextView
+        android:id="@+id/galeriden_sec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Galeri'den Seç"
+        android:textSize="13sp"
+        android:textColor="@color/titleColorGrey"
+        android:letterSpacing="-0.03"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E7E7E7"/>
+
+    <TextView
+        android:id="@+id/fotograf_cek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Fotoğraf Çek"
+        android:textColor="@color/titleColorGrey"
+        android:letterSpacing="-0.03"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textSize="13sp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E7E7E7"/>
+
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingTop="10dp"
+    android:paddingRight="30dp"
+    tools:context=".SignUp.D_PersonalInfoActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/inter_bold"
+            android:gravity="center"
+            android:letterSpacing="-0.03"
+            android:text="@string/profil_bilgileri"
+            android:textColor="@color/titleColorGrey"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+
+    <EditText
+        android:id="@+id/ad_soyad_signup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:background="@drawable/input_field_background"
+        android:fontFamily="@font/inter_regular"
+        android:hint="@string/ad_soyad"
+        android:inputType="textPhonetic|textCapSentences"
+        android:letterSpacing="-0.03"
+        android:paddingStart="30dp"
+        android:textColor="@color/input_field_text_color"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/date_signup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_field_background"
+        android:fontFamily="@font/inter_regular"
+        android:focusable="false"
+        android:hint="@string/dogum_tarihi"
+        android:gravity="center_vertical"
+        android:letterSpacing="-0.03"
+        android:paddingStart="30dp"
+        android:textColor="@color/input_field_text_color"
+        android:textSize="13sp" />
+
+    <RadioGroup
+        android:id="@+id/gender_signup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/gender_erkek"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/input_height"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_selector"
+            android:button="@color/transparentColor"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center"
+            android:letterSpacing="-0.03"
+            android:text="@string/cinsiyet_erkek"
+            android:textColor="@drawable/radio_text_selector"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/gender_kadin"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/input_height"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_selector"
+            android:button="@color/transparentColor"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center"
+            android:letterSpacing="-0.03"
+            android:text="@string/cinsiyet_kadin"
+            android:textColor="@drawable/radio_text_selector"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/gender_diger"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/input_height"
+            android:layout_weight="1"
+            android:background="@drawable/radio_selector"
+            android:button="@color/transparentColor"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center"
+            android:letterSpacing="-0.03"
+            android:text="@string/cinsiyet_diger"
+            android:textColor="@drawable/radio_text_selector"
+            android:textSize="13sp" />
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/personalActivity_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/filled_button_background"
+        android:elevation="0dp"
+        android:fontFamily="@font/inter_bold"
+        android:letterSpacing="-0.03"
+        android:text="@string/devam_et"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+
+</LinearLayout>

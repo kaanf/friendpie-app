@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Friendpie</string>
+
+    <string name="login_hosgeldin">Hoş Geldin.</string>
+    <string name="login_aciklama">Devam etmek için giriş yap.</string>
+    <string name="login_button">Giriş Yap</string>
+    <string name="signup_button">Kayıt Ol</string>
+    <string name="email_text">E-mail</string>
+    <string name="password_text">Şifre</string>
+    <string name="password_text_hane">6 Haneli Şifre</string>
+    <string name="password_dogrula_text">Şifreni Doğrula</string>
+    <string name="hesabin_yok_mu">Hesabın yok mu?</string>
+    <string name="kayit_ol_text">Kayıt Ol.</string>
+    <string name="giris_yap_text">Giriş Yap.</string>
+    <string name="sifreni_mi_unuttun">Şifreni mi unuttun?</string>
+    <string name="zaten_uye_misin">Zaten üye misin?</string>
+    <string name="telefon_text">Telefon Numarası</string>
+    <string name="telefon_aciklama">Hesap oluşturmak için, telefonuna bir onay kodu göndereceğiz.</string>
+    <string name="country">Ülke</string>
+    <string name="onay_kodu_gonder">Onay Kodu Gönder</string>
+    <string name="yenile">Yenile.</string>
+    <string name="onay_kodu">Onay Kodu</string>
+    <string name="onay_kodu_aciklama">Telefonuna gelen onay kodunu aşağıya gir.</string>
+    <string name="onayla">Onayla</string>
+    <string name="onay_kodu_almadin_mi">Onay kodu almadın mı?</string>
+    <string name="tekrar_gonder">Tekrar gönder.</string>
+    <string name="profil_bilgileri">Profil Bilgileri</string>
+    <string name="ad_soyad">Ad Soyad</string>
+    <string name="dogum_tarihi">Doğum Tarihi</string>
+    <string name="cinsiyet_erkek">Erkek</string>
+    <string name="cinsiyet_kadin">Kadın</string>
+    <string name="cinsiyet_diger">Diğer</string>
+    <string name="devam_et">Devam Et</string>
+    <string name="ilgi_alanlari">İlgi Alanları</string>
+    <string name="ilgi_alani_ara">İlgi alanlarınızı arayın</string>
+    <string name="muzik_genre_aciklama">Dinlediğiniz müzik tarzlarını seçin.</string>
+    <string name="side_question_1">Sigara kullanıyorum.</string>
+    <string name="side_question_2">Alkol kullanıyorum.</string>
+    <string name="side_question_3">Evcil hayvan besliyorum.</string>
+    <string name="side_question_1_choice_a">Evet</string>
+    <string name="side_question_1_choice_b">Hayır</string>
+    <string name="tercihlerim">Tercihler</string>
+    <string name="phone_error_isempty">Geçerli bir telefon numarası girin.</string>
+    <string name="email_error_toast">Geçerli bir mail adresi giriniz.</string>
+    <string name="password_error_toast">Geçerli bir şifre giriniz.</string>
+    <string name="validate_password_error_toast">Şifreler eşleşmiyor</string>
+    <string name="otp_error_toast">Onay başarısız. Tekrar deneyin.</string>
+    <string name="password_error_toast_2">6 haneli bir şifre giriniz.</string>
+    <string name="password_dogrula_error_toast">Şifrenizi doğrulayın.</string>
+    <string name="ad_soyad_error_toast">Geçerli bir isim girin.</string>
+    <string name="gender_error_toast">Geçerli bir cinsiyet girin.</string>
+    <string name="yas_error_toast">18 yaşından büyük olmanız gerekmektedir.</string>
+    <string name="date_error_toast">Doğum tarihinizi girin.</string>
+    <string name="hobby_error_toast">İlgi alanlarınızı seçin.</string>
+    <string name="side_question_4">Üniversiteden mezun oldum.</string>
+    <string name="tercih_error_toast">Bütün soruları cevaplayın.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_sifre_error_toast">Şifre eşleşmiyor. Tekrar deneyin.</string>
+    <string name="login_user_error_toast">Kullanıcı bulunamadı.</string>
+    <string name="login_internet_connection_error_toast">İnternet bağlantısı kurulamadı.</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <CheckBox
+        android:id="@+id/music_checkbox"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:button="@color/transparentColor"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="R&amp;B"
+        android:background="@drawable/music_genre_background_selector"
+        android:fontFamily="@font/inter_medium"
+        android:letterSpacing="-0.03"
+        android:textColor="@drawable/music_text_selector"
+        android:gravity="center" />
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Homepage.HomepageActivity">
+
+    <ImageView
+        android:id="@+id/login_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/pie_square_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/login_hosgeldin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/inter_semibold"
+        android:letterSpacing="-0.03"
+        android:text="@string/login_hosgeldin"
+        android:textColor="@color/titleColorGrey"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/login_logo"
+        app:layout_constraintStart_toStartOf="@+id/login_logo"
+        app:layout_constraintTop_toBottomOf="@+id/login_logo" />
+
+    <TextView
+        android:id="@+id/login_aciklama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:letterSpacing="-0.03"
+        android:text="@string/login_aciklama"
+        android:textColor="#9E9C9C"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/login_hosgeldin"
+        app:layout_constraintStart_toStartOf="@+id/login_hosgeldin"
+        app:layout_constraintTop_toBottomOf="@+id/login_hosgeldin" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/stroke_button_background"
+        android:fontFamily="@font/inter_bold"
+        android:letterSpacing="-0.03"
+        android:text="@string/login_button"
+        android:textAllCaps="false"
+        android:textColor="@color/mainButtonColor"
+        android:textSize="12sp"
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/filled_button_background"
+        style="?android:attr/borderlessButtonStyle"
+        android:elevation="0dp"
+        android:fontFamily="@font/inter_bold"
+        android:letterSpacing="-0.03"
+        android:text="@string/signup_button"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/login_button"
+        app:layout_constraintStart_toStartOf="@id/login_button"
+        app:layout_constraintTop_toBottomOf="@+id/login_button"
+        android:layout_marginTop="10dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
